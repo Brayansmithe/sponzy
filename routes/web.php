@@ -13,6 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/machineMine', function () {
+    return view('machineMine');
 });
+
+Route::get('/mesMachines', function () {
+    return view('mesMachines');
+});
+
+Route::get('/confirmemachine', function () {
+    return view('confirmemachine');
+});
+
+Route::get('/footer', function () {
+    return view('layout/footer/footer');
+});
+
+
+
+
+

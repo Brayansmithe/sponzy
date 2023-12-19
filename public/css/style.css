@@ -1,0 +1,124 @@
+body{
+    background-color: #291E41;
+    
+}
+
+.card{
+    border-radius: 24px;
+    border: 1px solid #3B1FAC;
+    background: linear-gradient(180deg, rgba(109, 137, 200, 0.25) 0%, rgba(54, 34, 133, 0.25) 100%);
+    background-blend-mode: plus-lighter;
+    box-shadow: 3px 4px 7px 0px rgba(255, 255, 255, 0.25);
+}
+
+.money{
+    color: #F7DF3D;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.titre{
+    color: #F7DF3D;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btns1{
+    border-radius: 30px;
+    background: #48FF5A;
+    width: 169px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btns{
+    border-radius: 30px;
+    background: #48B9FF;
+    width: 169px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.pag{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pagor{
+    color: #F7DF3D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pags{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.carddim{
+    width: 95vw;
+}
+
+.paragra{
+    color: #FFF;
+    font-family: Inika;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 992px) {
+    .entete{
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        text-align: center;
+        width: 90vw;
+    }
+    .entete1{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.icos{
+    text-align: center;
+    /* width: 60px; */
+}
+.backs{
+    background-color: #291E41;
+}
+.contain1{
+    
+    position: fixed;
+}

@@ -84,7 +84,7 @@ a:hover {
 @media screen and (max-width: 350px) {
     .contener {
         max-width: 300px;
-        max-height: 500px;
+       max-height: 500px;
     }
 
     input[type="text"] {

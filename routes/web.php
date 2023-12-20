@@ -29,6 +29,18 @@ Route::get('/confirmemachine', function () {
     return view('confirmemachine');
 });
 
+Route::get('/moyenRetrait', function () {
+    return view('moyenRetrait');
+});
+
+Route::get('/moyenRetraitValid', function () {
+    return view('moyenRetraitValid');
+});
+
+Route::get('/retrait', function () {
+    return view('retrait');
+});
+
 Route::get('/footer', function () {
     return view('layout/footer/footer');
 });

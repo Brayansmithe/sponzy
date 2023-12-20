@@ -18,7 +18,7 @@
                 <p class="paragra">
                     Machine Minières
                 </p>
-            </div>
+            </div> 
             <div class="ms-3 text-center entete1">
                 <p class="paragra">
                     
@@ -75,6 +75,8 @@
 
                     </div>
                 </div>
+            </div>
+        </section>
 
     @endsection
     

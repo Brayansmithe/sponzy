@@ -10,7 +10,7 @@
     <title>@yield('titrePage')</title>
 </head>
 <body>
-
+ 
     
     @yield('contain')
     <section class="">

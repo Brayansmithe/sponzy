@@ -7,7 +7,7 @@
     @endsection
 
     @section('contain') 
-
+ 
         <section class="container mt-3 d-lg-flex justify-content-between align-items-center entete  ">
             <div class="entete1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
@@ -75,6 +75,8 @@
 
                     </div>
                 </div>
+            </div>
+        </section>
 
     @endsection
     

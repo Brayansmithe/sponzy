@@ -6,6 +6,7 @@
 
     @section('contain') 
 
+
         <section class="container mt-3 d-flex justify-content-between align-items-center entete  ">
             <div class="">
                 <a href="/retrait">

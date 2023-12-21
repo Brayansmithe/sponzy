@@ -32,7 +32,7 @@
 
              {{--  ViP Confirmer ?--}}
 
-                <div class="card mb-5 border img large-95  carddim">
+                <div class="card mb-5 border img large-95  ">
                         <div class="">
                             
                             <div class="d-flex justify-content-between card-body">
@@ -53,9 +53,9 @@
                 </div>
 
                 <div class="card mb-5 border  carddim">
-                    <div class=" ">
+                    <div class="d-flex justify-content-center card-body">
                         
-                        <div class="d-flex justify-content-center card-body">
+                        <div class="">
                             
                             <div class=" formaction mb-5 ">
                                 <h3 class="mb-5 pags2">Votre Moyen de retrait Ajouter</h3>
@@ -77,16 +77,20 @@
                                     <p> </p>
                                 </div>
 
-                                <div class="d-flex justify-content-between mb-3">
+                                <div class="d-flex justify-content-between mb-5">
                                     <p class="pags1">Numero du retrait: </p>
                                     <p class="texte1 "> 689256789 </p>
                                     <p> </p>
                                 </div>
 
-                                <div class=" text-center "><a href="/retrait" class="btn btn-primary btns">Ok</a></div>
-
-
                             </div>
+                            <div class="mt-5">
+                                <form action="/moyenRetraitValid" class="form-data formaction mb-5 mt-5">
+                                    <input class="form-control inputtext mt-5 mb-4" type="number" placeholder="Entrer le montant de votre retrait" aria-label="default input example" required>
+                                    <button class="btn btn-primary btns2" type="submit">Button</button>
+                                </form>    
+                            </div>
+                            
                         </div>
                         
                     </div>

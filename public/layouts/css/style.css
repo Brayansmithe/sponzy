@@ -1,56 +1,47 @@
 .body{
    
     background-color: #291E41;
-    margin: 0px;
-    top: 0px;
-    right: 0px;
+   
+}
+
+
+.header{
+    align-items: center;
     justify-content: center;
-    margin-left: 3px;
-}
-body{
-    margin: 0px;
-
-}
-
-
-.logo{
-    display: flex;
+    text-align: center
 }
 .card1{
-    width: 372px;
-    height: 229px;
-    flex-shrink: 0;
-/*     margin-left: 30px;
- */
-    border-radius: 24px;
-    background-size: cover;    background-image: url(./images/img3.png); /* lightgray 50% / cover no-repeat;  */
-
-    background-repeat: no-repeat; /* Pour ne pas répéter l'image */
-    background-size: 400px 300px; /* Ajuste la taille de l'image pour couvrir tout l'élément */
-    background-position: center center;
-/*     background-attachment: fixed;
- */
- box-shadow: 0px 4px 4px 0px rgba(206, 202, 202, 0.25);
+/*     background-color: transparent;
+ */    border-radius: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(206, 202, 202, 0.25);
+    z-index: 10
  }
 
+ .card1 img{
+    width: 100%;
+    height: 100%;
+
+    z-index: -20;
+    position: absolute;
+    border: 1px solid brown;
+
+ }
+
+ .card2 img{
+    width: 100%;
+    height: 100%;
+    z-index: -20;
+    position: absolute;
+ }
  .card2{
-    width: 500px;
-    height: 500px;
-    flex-shrink: 0;
-    /* margin-left: 30px; */
-
+    box-shadow: 0px 4px 4px 0px rgba(206, 202, 202, 0.25);
+    background-color: transparent;
     border-radius: 24px;
-    background-size: cover;    background-image: url(./images/img3.png); /* lightgray 50% / cover no-repeat;  */
 
-    background-repeat: no-repeat; /* Pour ne pas répéter l'image */
-    background-size: 400px 300px; /* Ajuste la taille de l'image pour couvrir tout l'élément */
-    background-position: center center;
-/*     background-attachment: fixed;
- */
-   box-shadow: 0px 4px 4px 0px rgba(206, 202, 202, 0.25);
+    z-index: 10;
  }
 
- .tableau{
+/*  .tableau{
     
     width: 300px;
    
@@ -58,22 +49,49 @@ body{
     border-radius: 21px;
     background: #6D89C8;
  }
- .titre{
-    margin-right: 20px;
- }
-.nave{
-    bottom: 0px;
-    position: sticky;
-    background-color: #140f1f;
-    width:325px ;
-    max-width: 350px;
-   
-    padding-left: 20px;
-    min-width: 300px;
+  */
 
+
+
+
+
+.care_Paren{
+    border-radius: 24px;
+    border: 1px solid #58D2F4;
+    background: linear-gradient(100deg, rgba(75, 100, 160, 0.60) 100%, rgba(39, 15, 134, 0.60) 100%);
+    background-blend-mode: plus-lighter;
+    box-shadow: 3px 4px 7px 0px rgba(255, 255, 255, 0.25);
 }
 
-.icon{
-    padding-left: 25px;
+.liste{
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    border: 1px solid #58D2F4;
+    background: #3C3068;
+ padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.lienliste{
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.copie1{
+ 
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    border: 1px solid #58D2F4;
+    background: #505252;
+    box-shadow: 2px 2px 10px 0px #58D2F4;
+    padding-top: 15px;
+    text-align: center;
 }
 

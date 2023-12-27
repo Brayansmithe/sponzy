@@ -9,50 +9,56 @@
     <title>Document</title>
 </head>
 
-<body class="body container-fuide">
-    <div class=" text-center col-md ml-5">
-        <div class="row p-0">
-            <div class="col text-start logo">
-            
+<body class="body">
+    <div class="container-fluide text-center ">
+        <div class="row d-flex header">
+              <div class="logo col-2" >
                 <img src="layouts/svgs/solid/atom.svg" alt="CTM" height="30px" width="30px" class="logo">
-                <br>
-                <h3 class="text-white">  Bienvenu~~</h3>
 
-            </div>
+              </div>
 
-            <div class="col titre">
+              <div class="col-5">
+                <h3 class="text-white">  Bienvenu</h3>
+              </div>
+                
+            <div class="col-5 ">
                 <h1 class="text-white">le titre</h1>
             </div>
         
         </div>
-
-        <div class="card card1 " style="width: 20rem;height: 250px;">
-            <div class="card-body">
-            
-              <p class="card-text text-white"> quae aspernatur voluptatem, corrupti aut doloribus eius delectus accusamus atque! Sed iure a saepe cupiditate sunt! Dicta repellendus officiis dignissimos! text to build on the card title and make up the bulk of the card's content.</p>
-        
-            </div>
-          </div>
-
-          <div class="card card2 mt-2" style="width: 20rem;height: 250px;">
-                <div class="card-body">
-        
-                <p class="card-text text-white"> quae aspernatur voluptatem, corrupti aut doloribus eius delectus accusamus atque! Sed iure a saepe cupiditate sunt! Dicta repellendus officiis dignissimos! text to build on the card title and make up the bulk of the card's content.</p>
-        
-                </div>
-          </div>
-
-
     </div>
 
-    <h3 class="text-white text-center"  style="width: 20rem;"><u>liste des utilisateurs recent</u> </h3>
 
-   <div class="container-fluide">
-    <table class="table .table-hover mt-2" style="width: 20rem;">
-     
-      <thead>
+    <div class="container-fluide">
+      <div class="card card1 text-center">
+        <img src="/layouts/css/images/img1.jpeg" alt="image 1">
+
+          <div class="card-body">
+            <p class="card-text text-white"> quae aspernatur voluptatem, corrupti aut doloribus eius delectus accusamus atque! Sed iure a saepe cupiditate sunt! Dicta repellendus officiis dignissimos! text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+
+      </div>
+
+        <div class="card card2 mt-2">
+          <img src="/layouts/css/images/img2.jpeg" alt="image 1">
+
+              <div class="card-body ">
+                <p class="card-text text-white"> quae aspernatur voluptatem, corrupti aut doloribus eius delectus accusamus atque! Sed iure a saepe cupiditate sunt! Dicta repellendus officiis dignissimos! text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+        </div>
+    </div>
+      
+
+
+
+    <div class="container-fluide contenu2">
+      <h3 class="text-white text-center"><u>liste des utilisateurs recent</u> </h3>
+
+
+    <table class="table text-cente">
+        <thead class="text-cente">
         
-        <tr>
+        <tr  class="text-cente">
           
           <th scope="col">#</th>
           <th scope="col">First</th>
@@ -62,7 +68,7 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row">1</th>
+          <th scope="row"  class="text-cente"> 1</th>
           <td>Mark</td>
           <td>bg</td>
         </tr>
@@ -78,33 +84,6 @@
 
 
 
-
-    
-    <div class="container-fluide mt-2 nave ">
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-      
-        <li class="nav-item " role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><img src="layouts/svgs/solid/house-user.svg" alt="CTM" height="35px" width="35px" class="logo"></button>
-        </li>
-        <li class="nav-item icon" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><img src="layouts/svgs/solid/toolbox.svg" alt="CTM" height="35px" width="35px" class="logo"></button>
-        </li>
-        <li class="nav-item icon" role="presentation">
-          <button class="nav-link" id="perso-tab" data-bs-toggle="tab" data-bs-target="#perso-tab-pane" type="button" role="tab" aria-controls="perso-tab-pane" aria-selected="false"><img src="layouts/svgs/solid/user.svg" alt="CTM" height="35px" width="35px" class="logo"></button>
-        </li>
-      </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="perso-tab-pane" role="tabpanel" aria-labelledby="perso-tab" tabindex="0">...</div>
-
-      </div>
-
-   </div>
-   
-
-
-  
 
 
 

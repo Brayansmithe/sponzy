@@ -15,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
+
+});
+Route::get('/parainage', function () {
+    return view('parainage');
+
 });
 
 Route::get('/machineMine', function () {

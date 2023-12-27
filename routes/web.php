@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\UtilisateurController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -54,3 +54,9 @@ Route::get('/footer', function () {
 
 
 
+
+
+Route::get('/register',[ UtilisateurController::class, 'form_register']);
+Route::post('/register/traitement',[UtilisateurController::class, 'traitement_register']);
+Route::get('/login',[UtilisateurController::class, 'form_login']);
+Route::post('/login/traitement',[UtilisateurController::class, 'traitement_login']);

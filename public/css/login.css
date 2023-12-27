@@ -3,6 +3,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
 }
+.body{
+    background-color: #291E41;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
 
 h2 {
     font-weight: bold;

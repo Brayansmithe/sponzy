@@ -14,18 +14,7 @@
 </head>
 
 
-<body class="body container-fuide">
-    <div class=" text-center col-md ml-5">
-        <div class="row p-0">
-            <div class="col text-start logo">
-            
-                <img src="layouts/svgs/solid/atom.svg" alt="CTM" height="30px" width="30px" class="logo">
-                <br>
-                <h3 class="text-white">  Bienvenu~~</h3>
 
-            </div>
-
-            <div class="col titre">
 
 <body class="body">
     <div class="container-fluide text-center ">
@@ -36,7 +25,8 @@
               </div>
 
               <div class="col-5">
-                <h3 class="text-white">  Bienvenu</h3>
+                <h3 class="text-white">  Bienvenu </h3>
+                
               </div>
                 
             <div class="col-5 ">

@@ -15,7 +15,42 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
+
 });
 Route::get('/parainage', function () {
     return view('parainage');
+
 });
+
+Route::get('/machineMine', function () {
+    return view('machineMine');
+});
+
+Route::get('/mesMachines', function () {
+    return view('mesMachines');
+});
+
+Route::get('/confirmemachine', function () {
+    return view('confirmemachine');
+});
+
+Route::get('/moyenRetrait', function () {
+    return view('moyenRetrait');
+});
+
+Route::get('/moyenRetraitValid', function () {
+    return view('moyenRetraitValid');
+});
+
+Route::get('/retrait', function () {
+    return view('retrait');
+});
+
+Route::get('/footer', function () {
+    return view('layout/footer/footer');
+});
+
+
+
+
+
